@@ -49,8 +49,10 @@ void add() {
 	printf("Enter the third value:");
 	scanf_s("%lf", &num3);
 	result = num1 + num2 + num3;
-	printf("%lf + %lf = %lf\n", num1, num2, result);
+	printf("%lf + %lf + %lf = %lf\n", num1, num2, num3, result);
 }
+//add() was fixed to display the proper arithmetic and output. Another %lf specifier was added to display num3,
+//and num3 was added to the variable list. 
 
 void subtract()
 {
